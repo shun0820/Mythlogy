@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b163abe5f2e5c954486d3f4bb8e8bc2c, type: 3}
+  m_Name: 2ndUnityChanStatus
+  m_EditorClassIdentifier: 
+  characterName: 
+  level: 1
+  maxHP: 100
+  HP: 100
+  maxSP: 100
+  SP: 100
+  str: 10
+  agi: 10
+  vit: 10
+  dex: 10
+  intelligence: 10
+  luk: 10
+  earned_EXP: 0
+  equiped_weapon: {fileID: 11400000, guid: 6d58ce7f26271414cb6ba26d5cf6814d, type: 2}
+  equiped_armor: {fileID: 0}
+  item_dictionary:
+    m_keys:
+    - {fileID: 11400000, guid: 6d58ce7f26271414cb6ba26d5cf6814d, type: 2}
+    m_values: 01000000
