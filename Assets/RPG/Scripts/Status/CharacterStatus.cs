@@ -12,6 +12,10 @@ public abstract class CharacterStatus : ScriptableObject
     [SerializeField]
     private string characterName = "";
     [SerializeField]
+    private bool isPoisonState = false;
+    [SerializeField]
+    private bool isNumbnessState = false;
+    [SerializeField]
     private int level = 1;
     [SerializeField]
     private int maxHP = 100;
@@ -43,6 +47,24 @@ public abstract class CharacterStatus : ScriptableObject
         return characterName;
     }
     
+
+    public void SetPoisonState(bool poisonFlag)
+    {
+        isPoisonState = poisonFlag;
+    }
+    public bool IsPoisonState()
+    {
+        return isPoisonState;
+    }
+
+    public void SetNumbnessState(bool numbnessFlag)
+    {
+        isPoisonState = numbnessFlag;
+    }
+    public bool IsNumbnessState()
+    {
+        return isNumbnessState;
+    }
     public void SetLevel(int characterLevel)
     {
         this.level = characterLevel;

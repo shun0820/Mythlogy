@@ -26,6 +26,7 @@ public class UnityChanCommandScript : MonoBehaviour
         {
             return;
         }
+        
         //コマンドUIの表示・非表示の切り替え
         if (Input.GetButtonDown("Menu"))
         {
@@ -37,7 +38,7 @@ public class UnityChanCommandScript : MonoBehaviour
             }
             else
             {
-
+                ExitCommand();
             }
             //コマンドUIのオン・オフ
             commandUI.SetActive(!commandUI.activeSelf);

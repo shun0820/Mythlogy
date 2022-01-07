@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class CommandPanelButtonScript : MonoBehaviour,ISelectHandler,IDeselectHandler
 {
-    //ボタン洗濯時に表示する画像
+    //ボタン選択時に表示する画像
     private Image selectedImage;
     //選択時の音声
     private AudioSource selectedAudioSource;

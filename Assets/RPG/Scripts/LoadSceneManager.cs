@@ -54,7 +54,7 @@ public class LoadSceneManager : MonoBehaviour
         //ƒV[ƒ“‚Ì“Ç‚İ‚İ
         if (scene == SceneMovementData.SceneType.FirstVillage){
             yield return StartCoroutine(LoadScene("Village"));
-        }else if(scene==SceneMovementData.SceneType.FirstVillageToWorldMap){
+        }else if(scene == SceneMovementData.SceneType.FirstVillageToWorldMap){
             yield return StartCoroutine(LoadScene("WorldMap"));
         }
 
